@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Blackbull Technologies : It Solutions</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="icon" type="image/png" href="../assets/img/logo/logo2.png" />
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://assets.codepen.io/16327/SplitText3.min.js"></script>
+    <!-- CSS here -->
+
+    <link rel="stylesheet" href="../assets/app/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/app/css/meanmenu.min.css" />
+    <link rel="stylesheet" href="../assets/app/css/animate.css" />
+    <link rel="stylesheet" href="../assets/app/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../assets/app/css/slick.css" />
+    <link rel="stylesheet" href="../assets/app/css/backtotop.css" />
+    <link rel="stylesheet" href="../assets/app/css/magnific-popup.css" />
+    <link rel="stylesheet" href="../assets/app/css/fontawesome-pro.css" />
+    <link rel="stylesheet" href="../assets/app/css/spacing.css" />
+    <link rel="stylesheet" href="../assets/app/css/main.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.7/lottie.min.js"></script>
+  </head>
+  <body>
+    <!-- Offcanvas area start -->
+    <div class="fix">
+      <div class="offcanvas__info">
+        <div class="offcanvas__wrapper">
+          <div class="offcanvas__content">
+            <div
+              class="offcanvas__top mb-40 d-flex justify-content-between align-items-center"
+            >
+              <div class="offcanvas__logo">
+                <a href="index.html">
+                  <img src="../assets/img/logo/logo.png" alt="logo not found" />
+                </a>
+              </div>
+              <div class="offcanvas__close">
+                <button>
+                  <i class="fal fa-times"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="mobile-menu fix mb-40"></div>
+            <div class="offcanvas__contact mt-30 mb-20">
+              <h4>Contact Info</h4>
+              <ul>
+                <li class="d-flex align-items-center">
+                  <div class="offcanvas__contact-icon mr-15">
+                    <i class="fal fa-map-marker-alt"></i>
+                  </div>
+                  <div class="offcanvas__contact-text">
+                    <a
+                      target="_blank"
+                      href="https://www.google.com/maps/place/BlackBull+Technologies/@21.2382296,72.8852903,17z/data=!3m1!4b1!4m6!3m5!1s0x3be04f0da8790d65:0xc0e25a18cf9ee103!8m2!3d21.2382246!4d72.8878652!16s%2Fg%2F11t7drsy0j?entry=ttu"
+                      >228, Ambika pinnacle, lajamani chowk, mota varachha
+                      ,surat,gujarat,india</a
+                    >
+                  </div>
+                </li>
+                <li class="d-flex align-items-center">
+                  <div class="offcanvas__contact-icon mr-15">
+                    <i class="far fa-phone"></i>
+                  </div>
+                  <div class="offcanvas__contact-text">
+                    <a href="tel:+919727476746">+91 9727476746</a>
+                  </div>
+                </li>
+                <li class="d-flex align-items-center">
+                  <div class="offcanvas__contact-icon mr-15">
+                    <i class="fal fa-envelope"></i>
+                  </div>
+                  <div class="offcanvas__contact-text">
+                    <a href="tel:+012-345-6789"
+                      ><span class="mailto:contact@blackbulltechnologies.in"
+                        >contact@blackbulltechnologies.in</span
+                      ></a
+                    >
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="offcanvas__social">
+              <ul>
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="offcanvas__overlay"></div>
+    <div class="offcanvas__overlay-white"></div>
+    <!-- Offcanvas area start -->
+
+    <!-- Header area start -->
+    <header>
+      <div id="header-sticky" class="header__area">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-xl-2 col-lg-2 col-6">
+              <div class="header__logo">
+                <a href="index.html">
+                  <img src="../assets/img/logo/logo.png" alt="logo not found" />
+                </a>
+              </div>
+            </div>
+            <div class="col-xl-7 col-lg-9 d-none d-lg-block">
+              <div class="menu__main-wrapper d-flex justify-content-center">
+                <div class="main-menu d-none d-none d-lg-block">
+                  <nav id="mobile-menu">
+                    <ul>
+                      <li>
+                        <a href="../index.html">Home</a>
+                      </li>
+                      <li>
+                        <a href="about.html">About</a>
+                      </li>
+                      <li>
+                        <a href="service.html">Services</a>
+                      </li>
+
+                      <li>
+                        <a href="project.html">Portfolio</a>
+                      </li>
+                      <li>
+                        <a href="../blog.html">Blogs</a>
+                      </li>
+                      <li>
+                        <a href="../contact.html">Contact</a>
+                      </li>
+                      <li>
+                        <a href="../contact.html">Contact</a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-1 col-6">
+              <div
+                class="header__right d-flex align-items-center justify-content-end"
+              >
+                <div class="header__btn d-none d-xl-block">
+                  <a class="border__btn" href="../contact.html">Let's Talk</a>
+                </div>
+                <div class="header__toggle d-lg-none">
+                  <a class="sidebar__active" href="javascript:void(0)">
+                    <div class="bar-icon">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </a>
+                </div>
+                <div class="header__hamburger d-none d-lg-block ml-60">
+                  <button class="humbager__icon sidebar__active">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="28"
+                      height="24"
+                      viewBox="0 0 28 24"
+                    >
+                      <g
+                        id="Group_27406"
+                        data-name="Group 27406"
+                        transform="translate(-1629 -60)"
+                      >
+                        <circle
+                          id="Ellipse_1144"
+                          data-name="Ellipse 1144"
+                          cx="2"
+                          cy="2"
+                          r="2"
+                          transform="translate(1641 60)"
+                          fill="#828282"
+                        />
+                        <circle
+                          id="Ellipse_1145"
+                          data-name="Ellipse 1145"
+                          cx="2"
+                          cy="2"
+                          r="2"
+                          transform="translate(1653 60)"
+                          fill="#828282"
+                        />
+                        <circle
+                          id="Ellipse_1146"
+                          data-name="Ellipse 1146"
+                          cx="2"
+                          cy="2"
+                          r="2"
+                          transform="translate(1629 60)"
+                          fill="#828282"
+                        />
+                        <circle
+                          id="Ellipse_1147"
+                          data-name="Ellipse 1147"
+                          cx="2"
+                          cy="2"
+                          r="2"
+                          transform="translate(1641 70)"
+                          fill="#828282"
+                        />
+                        <circle
+                          id="Ellipse_1148"
+                          data-name="Ellipse 1148"
+                          cx="2"
+                          cy="2"
+                          r="2"
+                          transform="translate(1653 70)"
+                          fill="#828282"
+                        />
+                        <circle
+                          id="Ellipse_1149"
+                          data-name="Ellipse 1149"
+                          cx="2"
+                          cy="2"
+                          r="2"
+                          transform="translate(1629 70)"
+                          fill="#828282"
+                        />
+                        <circle
+                          id="Ellipse_1150"
+                          data-name="Ellipse 1150"
+                          cx="2"
+                          cy="2"
+                          r="2"
+                          transform="translate(1641 80)"
+                          fill="#828282"
+                        />
+                        <circle
+                          id="Ellipse_1151"
+                          data-name="Ellipse 1151"
+                          cx="2"
+                          cy="2"
+                          r="2"
+                          transform="translate(1653 80)"
+                          fill="#828282"
+                        />
+                        <circle
+                          id="Ellipse_1152"
+                          data-name="Ellipse 1152"
+                          cx="2"
+                          cy="2"
+                          r="2"
+                          transform="translate(1629 80)"
+                          fill="#828282"
+                        />
+                      </g>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header area end -->
+
+    <!-- Body main wrapper start -->
+    <main>
+      <!-- Breadcrumb area stat -->
+      <div class="breadcrumb__area">
+        <img
+          class="breadcrumb__shape-1"
+          src="../assets/img/shape/breadcrum-1.png.png"
+          alt="image not found"
+        />
+        <img
+          class="breadcrumb__shape-2"
+          src="../assets/img/shape/breadcrum-1.png.png"
+          alt="image not found"
+        />
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-12">
+              <div class="breadcrumb__wrapper text-center">
+                <div class="breadcrumb__title">
+                  <h2 id="topHeader"></h2>
+                </div>
+                <div class="breadcrumb__menu">
+                  <nav
+                    aria-label="Breadcrumbs"
+                    class="breadcrumb-trail breadcrumbs"
+                  >
+                    <ul class="trail-items">
+                      <li class="trail-item trail-begin">
+                        <span><a href="index.html">Blogs</a></span>
+                      </li>
+                      <li class="trail-item trail-end">
+                        <span>Blog-Details</span>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Breadcrumb area end -->
+
+      <!-- Service area start -->
+
+      <!-- Service area end -->
+
+      <!-- Features area start -->
+      <section class="features__area p-relative features-bg pt-120 pb-30">
+        <div class="container">
+          <div class="pinned-image">
+            <div class="pinned-image__container port-imgs">
+              <img id="headerImage" src="" alt="not found" />
+              <div class="pinned-image__container-overlay"></div>
+            </div>
+            <figure class="pinned-image__quote">
+              <figcaption>
+                <span class="pinned-image__quote-author"></span>
+                <span class="pinned-image__quote-role"></span>
+              </figcaption>
+            </figure>
+            <div class="pinned-image__overlay"></div>
+          </div>
+          <div class="section__title-wrapper text-start mb-30 mt-20">
+            <div class="section__title-3 mb-20 sec" id="text-animate"></div>
+            <p class="port-text-p" id="sub_port1"></p>
+            <p class="port-text-p" id="sub_port2"></p>
+          </div>
+          <div class="section__title-wrapper text-start mb-30 mt-20">
+            <div class="section__title-3 mb-20 sec2" id="text-animate"></div>
+            <p class="port-text-p" id="sub_portt2_1"></p>
+            <p class="port-text-p" id="sub_portt2_2"></p>
+            <p class="port-text-p" id="sub_portt2_3"></p>
+          </div>
+          <div class="section__title-wrapper text-start mb-30 mt-20">
+            <div class="section__title-3 mb-20 sec3" id="text-animate"></div>
+            <p class="port-text-p" id="sub_portt3_1"></p>
+            <p class="port-text-p" id="sub_portt3_2"></p>
+            <p class="port-text-p" id="sub_portt3_3"></p>
+          </div>
+          <div class="section__title-wrapper text-start mb-30 mt-20">
+            <div class="section__title-3 mb-20 sec4" id="text-animate"></div>
+            <p class="port-text-p" id="sub_portt4_1"></p>
+            <p class="port-text-p" id="sub_portt4_2"></p>
+            <p class="port-text-p" id="sub_portt4_3"></p>
+            <p class="port-text-p" id="sub_portt4_4"></p>
+          </div>
+          <div class="section__title-wrapper text-start mb-30 mt-20">
+            <div class="section__title-3 mb-20 sec5" id="text-animate"></div>
+            <p class="port-text-p" id="sub_portt5_1"></p>
+            <p class="port-text-p" id="sub_portt5_2"></p>
+          </div>
+          <div class="section__title-wrapper text-start mb-30 mt-20">
+            <div class="section__title-3 mb-20 sec6" id="text-animate"></div>
+            <p class="port-text-p" id="sub_portt6_1"></p>
+            <p class="port-text-p" id="sub_portt6_2"></p>
+          </div>
+        </div>
+      </section>
+      <!-- Features area end -->
+
+      <!-- Cta area start -->
+
+      <!-- Cta area end -->
+
+      <!-- Footer area start -->
+      <footer>
+        <section
+          class="footer__border p-relative z-index-11 pt-120 pb-55"
+          data-background="../assets/img/shape/footer-bg.png"
+        >
+          <div class="footer__style-3">
+            <span class="footer__cercle"></span>
+            <div class="container">
+              <div class="footer__inner mb-50">
+                <div class="row">
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                    <div class="footer__widget mb-55">
+                      <div class="footer__logo mb-20">
+                        <a href="index.html">
+                          <img
+                            src="../assets/img/logo/logo.png"
+                            alt="logo not found"
+                          />
+                        </a>
+                      </div>
+                      <div class="footer__contact mb-30">
+                        <span>228, Ambika pinnacle,</span>
+                        <span> mota varchha, near lajamani,</span>
+                        <span> Surat, Gujarat, India</span>
+                      </div>
+                       <div class="touch__social">
+                        <a href="https://www.upwork.com/agencies/1562767933130342400/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM270.8 274.3c5.2 8.4 23.6 29.9 51.5 29.9v0c25.2 0 44.9-20.2 44.9-49.7s-19.4-49.7-44.9-49.7s-44.9 16.7-51.5 69.5zm-26.7-41.8c7.3-30.5 32.7-60.1 78.2-60.1l0 0c45.1 0 80.9 35.2 80.9 82.2s-35.9 81.9-80.9 81.9c-.6 0-1.1 0-1.7 0c-.5 0-1.1 0-1.6 0h-.1c-14.5-.5-28.7-4.8-40.9-12.6c-4.7-2.8-9.1-6-13.4-9.5l-12.8 78.4H214.9l19.4-110.6c-20.8-29.1-31.6-62.4-36.2-79.7V255c0 48-30.5 81.5-74.2 81.5c-22 0-41-8-54.8-23.3c-13.4-14.8-20.8-35.5-20.8-58.3V176.8H84.5l-.3 78.2c0 28.4 14.5 49.3 39.8 49.3s38.2-20.9 38.2-49.3V176.8h62.8c4.8 19.3 10.9 40.1 19.2 55.6z"/></svg></a>
+                        <a href="https://www.google.com/search?q=blackbull+technologies&rlz=1C1JJTC_enIN1061IN1061&oq=&aqs=chrome.0.69i59j46i39i175i199i512i650i654j69i57j0i67i512i650j46i67i131i199i433i465i512i650j69i60l3.4048j0j7&sourceid=chrome&ie=UTF-8#lrd=0x3be04f0da8790d65:0xc0e25a18cf9ee103,1,,,,"><i class="fa-brands fa-google"></i></a>
+                        <a href="https://www.instagram.com/blackbulltechnologies?igsh=MWM4ZXVzZTEwaXU3dA=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/search/results/all/?keywords=blackbull%20technologies&origin=TYPEAHEAD_HISTORY&searchId=35d42d2f-dd23-4313-8f71-5787b5a008e7&sid=TyZ&spellCorrectionEnabled=true"><i class="fa-brands fa-linkedin"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                    <div class="footer__widget footer__col-1 mb-55">
+                      <div class="footer__title">
+                        <h3>Let's Talk</h3>
+                      </div>
+                      <div class="footer__link">
+                        <ul>
+                          <li>
+                            <a href="mailto:contact@blackbulltechnologies.in"
+                              ><i class="fa-solid fa-envelope"></i>
+                              contact@blackbulltechnologies.in</a
+                            >
+                          </li>
+                          <li>
+                            <a href="https://wa.me/9727476746"
+                              ><i class="fa-solid fa-phone"></i>+91 97274 76746</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6">
+                    <div class="footer__widget footer__col-1 mb-55">
+                      <div class="footer__title">
+                        <h3>About us</h3>
+                      </div>
+                      <div class="footer__link">
+                        <ul>
+                          <li><a href="../about.html">About Us</a></li>
+                          <li><a href="../blog.html">Blogs</a></li>
+                          <li><a href="../team.html">Team</a></li>
+                          <li><a href="../service.html">Work with Us</a></li>
+                          <li><a href="../career.html">Careers</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                    <div class="footer__widget footer__col-5 mb-55">
+                      <div class="footer__title">
+                        <h3>Explore Blackbull</h3>
+                      </div>
+                      <div class="footer__link">
+                        <ul>
+                          <li><a href="../service.html">Services</a></li>
+                          <li>
+                            <a href="../privacy_policy.html">Privacy Policy</a>
+                          </li>
+                          <li>
+                            <a href="../terms_conditions.html"
+                              >Terms & Condition
+                            </a>
+                          </li>
+                          <li><a href="../contact.html">Contact Us</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="footer__copyright">
+                    <div class="copyright__text text-center">
+                      <p>
+                        Copyright © 2021 Blackbull Technologies All Rights
+                        Reserved.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
+      <!-- Footer area end -->
+    </main>
+    <!-- Body main wrapper end -->
+
+    <!-- JS here -->
+    <script src="../assets/app/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="../assets/app/js/vendor/waypoints.min.js"></script>
+    <script src="../assets/app/js/bootstrap.min.js"></script>
+    <script src="../assets/app/js/meanmenu.min.js"></script>
+    <script src="../assets/app/js/swiper-bundle.min.js"></script>
+    <script src="../assets/app/js/slick.min.js"></script>
+    <script src="../assets/app/js/magnific-popup.min.js"></script>
+    <script src="../assets/app/js/backtotop.js"></script>
+    <script src="../assets/app/js/counterup.js"></script>
+    <script src="../assets/app/js/wow.min.js"></script>
+    <script src="../assets/app/js/imagesloaded.pkgd.min.js"></script>
+    <script src="../assets/app/js/isotope.pkgd.min.js"></script>
+    <script src="../assets/app/js/ajax-form.js"></script>
+    <script src="../assets/app/js/main.js"></script>
+    <script>
+      gsap.registerPlugin(ScrollTrigger, SplitText);
+
+      function setupSplits() {
+        const targets = gsap.utils.toArray("#text-animate");
+        targets.forEach((target) => {
+          let splitHeading = new SplitText(target, { type: "words, chars" });
+          let chars = splitHeading.chars;
+          gsap.from(chars, {
+            yPercent: 130,
+            stagger: 0.05,
+            ease: "power1.inOut",
+            duration: 0.5,
+            scrollTrigger: {
+              trigger: target,
+
+              start: "0% 75%",
+              end: "20% center",
+            },
+          });
+        });
+      }
+
+      setupSplits();
+    </script>
+    <script>
+      const pinnedImages = document.querySelectorAll(".pinned-image");
+
+      pinnedImages.forEach((pinnedImage) => {
+        const container = pinnedImage.querySelector(".pinned-image__container");
+        const image = container.querySelector("img");
+        const overlay = container.querySelector(
+          ".pinned-image__container-overlay"
+        );
+        const quote = pinnedImage.querySelector(".pinned-image__quote");
+        const tl = gsap.timeline({ paused: true });
+        tl.to(
+          container,
+          {
+            scale: 1.1,
+          },
+          0
+        );
+        tl.from(
+          quote,
+          {
+            autoAlpha: 0,
+          },
+          0
+        );
+        tl.from(
+          overlay,
+          {
+            autoAlpha: 0,
+          },
+          0
+        );
+        const trigger = ScrollTrigger.create({
+          animation: tl,
+          trigger: pinnedImage,
+          start: "top top",
+          markers: false,
+          pin: true,
+          scrub: true,
+        });
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const dataArray = [
+          {
+            id: 1,
+            title:
+              "Flutter vs. React Native: Which Framework to Choose for Your Next Mobile App Development?",
+            title1:
+              "Deciding on a mobile development framework often boils down to ‘Flutter vs React Native’. Understanding their differences in performance, development experience, and ecosystem support is crucial. Our straightforward comparison strips away the fluff and dives into what you need to know to choose the right tech for your app.",
+            sub_para1:
+              "In the past there weren’t many options to choose from, developers were stuck with building native applications, using either Java or Android SDK for Android, or Swift for iOS. Nowadays, there are many cross-platform development frameworks available. However, this means that you have to make an important choice before you pick one. This won’t be easy and you will need to consider at least two factors.",
+            sub_para2:
+              "First, there’s the budget. Building a cross-platform app tends to be cheaper than developing two separate ones for each major mobile OS. Second, there’s complexity. Although cross-platform application development is cheaper and faster, implementing a very complex logic or hardware integrations can be prohibitively difficult in non-native dev scenarios.",
+            title2: "Key Takeaways",
+            sub_paraT2_1:
+              "Flutter and React Native are open-source frameworks created by Google and Meta Platforms, respectively, aimed at facilitating high-performance, cross-platform app development with a single codebase.",
+            sub_paraT2_2:
+              "React Native has a larger ecosystem and stronger community support, but Flutter is rising in popularity and might have better performance due to features like direct compilation into native code and efficient rendering.",
+            sub_paraT2_3:
+              "While React Native utilizes JavaScript, offering a significant amount of resources and easy adoption for web developers, Flutter uses Dart which could have a steeper learning curve but offers advantages in type safety and potentially faster app performance.",
+            image: "../assets/img/blog/flutter.jpg",
+            title3: "Understanding Flutter and React Native",
+            sub_paraT3_1:
+              "Flutter, originally known as ‘Sky’, is an open-source UI software development kit created by Google. It made its first appearance running on the Android operating system and was unveiled at the Dart developer summit in 2015 to render consistently at 120 frames per second. The first stable version, Flutter 1.0, was released on December 4, 2018.",
+            sub_paraT3_2:
+              "On the other side of the spectrum, React Native is another open-source UI software framework, but this one is the brainchild of Meta Platforms, Inc. (formerly Facebook). The development of this framework was sparked after Facebook engineer Jordan Walke found a way to build UI elements for iOS from a JavaScript thread. The first version of React JavaScript Configuration was released in 2015, following intense development by Facebook.",
+            sub_paraT3_3:
+              "Although Flutter and React Native were birthed by different technology giants, they share a common purpose: to accelerate and streamline the process of building beautiful, high-performance mobile applications. They form the foundation of native app development, offering a suite of tools and features that make it possible to create cross-platform apps with a single codebase.",
+            title4: "Programming Languages: Dart vs JavaScript",
+            sub_paraT4_1:
+              "In the battle of programming languages, Dart and JavaScript stand tall as the languages of choice for Flutter and React Native respectively. Dart, developed by Google in 2011, is an open-source language known for being type-safe and scalable, making it an ideal choice for Flutter. On the other hand, JavaScript, with over two decades under its belt, is used across web, server-side, and mobile app development and boasts a vibrant community.",
+            sub_paraT4_2:
+              "The syntax of the Dart programming language is similar to Java, which can make it easier for developers with an Object-Oriented Programming (OOP) background to learn. It supports:",
+            sub_paraT4_3:
+              "JavaScript, renowned for its dynamic typing, has array and map structures but lacks built-in set literals, unlike Dart. When it comes to the learning curve, Dart may present a steeper climb due to fewer available resources and its less common usage than JavaScript. Meanwhile, JavaScript has a rich ecosystem of frameworks, libraries, and online courses for learning.",
+            sub_paraT4_4:
+              "Each language has its unique strengths. Dart, with its strong typing, is likened to TypeScript or Flow, and its compilation with both Ahead-of-Time (AOT) and Just-in-Time (JIT) compilers contributes to faster performance in some benchmarks. However, this might require more adjustment for developers used to JavaScript’s dynamic typing.",
+            title5: "The final comparison",
+            sub_paraT5_1:
+              "Firstly, React Native is based on React.js and uses JavaScript, a very popular language, so it’s relatively easy for a JS developer to start working in RN. Building a mobile app using RN is similar to building a website, so web developers will feel right at home. Flutter uses Dart – the language is not very popular yet, so most developers will have to learn it from scratch. To do Flutter full justice, it’s fairly simple to learn thanks to its similarity to other major languages.",
+            sub_paraT5_2:
+              "Secondly, while JS can be considered a strength of RN, it’s also one of its weaknesses JavaScript is an old language with a lot of quirks and an occasionally counterintuitive syntax. Dart is new as has no such legacy problems, developers appreciate it for how productive and straightforward it is. Thirdly, JS, with all its woes, has the huge advantage of granting you access to the biggest repository of reusable packages in the world, npm. This is an incredible resource, and Dart packages available for Flutter can’t really compare.",
+            title6: "Flutter vs. React Native: which one to choose?",
+            sub_paraT6_1:
+              "Throughout this exploration, we’ve compared and contrasted Flutter and React Native on various parameters such as their origins, popularity, programming languages, user interface, and design capabilities, performance, development tools and ecosystems, testing, and quality assurance practices, cost and time efficiency, platform compatibility, and real-world use cases.",
+            sub_paraT6_2:
+              "In terms of popularity and community support, Flutter has been gaining significant traction, despite having less community support compared to React Native. When it comes to programming languages, Dart and JavaScript each have their unique strengths and learning curves. While Flutter focuses on distinctive, brand-specific design, React Native leverages native UI components for a natural user experience across multiple platforms.",
+          },
+          {
+            id: 2,
+            title:
+              "Kotlin Multiplatform vs Flutter. Which Is Better for Your App?",
+            title1:
+              "If building a cross-platform app is on your radar, you have yet another solution to consider: Kotlin Multiplatform.",
+            sub_para1:
+              "As new development solutions enter the scene, it may be hard to decide which one will fit your needs best. In this article, we're comparing Kotlin Multiplatform with the already well-established and loved Flutter. We outline the pros and cons of each solution and explain in which cases one will be more effective than the other.",
+
+            title2: "Two tools for cross-platform app development projects",
+            sub_paraT2_1:
+              "Kotlin Multiplatform and Flutter are both relatively young development tools created to support cross-platform projects. Each solution has its unique way of building cross-platform programs.",
+            sub_paraT2_2:
+              "Flutter uses its own UI rendering engine based on Skia. Kotlin Multiplatform utilizes native development with scalability. Both of these approaches are greatly effective at creating well-performing apps for various platforms.",
+            sub_paraT2_3: "Let's take a closer look at Flutter first.",
+            image: "../assets/img/blog/kotlin.jpg",
+            title3: "What is Flutter?",
+            sub_paraT3_1:
+              "Flutter is a relatively young UI framework - it was created by Google in 2017. It's open source and offers a great documentation, as well as many tutorials and videos, which proves it was created with developers in mind. Flutter's key architecture feature is its own rendering engine based on Skia.",
+            sub_paraT3_2:
+              "Building applications in Flutter requires Dart (also created by Google back in 2011) - a statically typed language that offers numerous features of a modern programming language. The main purpose of the Dart programming language is to offer a client-optimized language for creating apps that run fast on any platform. It's perfect for front-end development of mobile and web apps.",
+            sub_paraT3_3:
+              "Flutter is a stable and reliable way to build secure and well performing applications - there are already ample examples of such apps on the market, including Google Ads, Google Pay, Reflectly, Alibaba or Postmuse. Just like any other framework, Flutter has its pros and cons. We’ll start with the advantages.",
+            title4: "What is Kotlin Multiplatform?",
+            sub_paraT4_1:
+              "Kotlin Mutiplaftom is an SDK developed by JetBrains. It was first released in 2016, but it is still undergoing rapid development and many features are being added to every version.",
+            sub_paraT4_2:
+              "The SDK is based on Kotlin language (also developed by JetBrains), a modern, statically-typed language that can be compiled to native platform code, Java Script or Java virtual machine code. It's the preferred language for most Android developers.",
+            sub_paraT4_3:
+              "Kotlin Multiplatform allows sharing code with variable intensity across various systems. Consequently, it allows to build not only cross-platform client applications and multi-platform libraries, but also full-stack applications that utilize shared code between frontend and backend.",
+            sub_paraT4_4:
+              "This means that developers can decide which feature they want to implement as shared between different platforms, and which should be implemented separately using native methods.",
+            title5: "When to choose Flutter over Kotlin Multiplatfrom",
+            sub_paraT5_1:
+              "Flutter is perfect for creating new apps that do not require a lot of platform-specific code. It is extensively supported with external libraries, and offers a well-tested architecture as well as an excellent UI library.",
+            sub_paraT5_2:
+              "All of this contributes to short development time, which is perfect for creating MVPs to test concepts in short time-to-market, as well as simple apps. The framework is an excellent choice for high-performing apps that offer common user experience across various systems.",
+            title6: "When to choose Kotlin Multiplatform over Flutter",
+            sub_paraT6_1:
+              "Kotlin Multiplatform is perfect for creating new apps that might require a lot of platform-specific code. The SDK is a good choice when you need to migrate existing, natively developed apps thanks to the scalability of code sharing.",
+            sub_paraT6_2:
+              "Migration can be performed iteratively. Scalability also ensures great performance even in case of complex features, so Kotlin Multiplatform is a good choice for larger projects. What is more, Kotlin Multiplatform is effective at creating apps that require natively implemented features alongside a shared codebase.",
+          },
+          {
+            id: 3,
+            title: "Convert Flutter Mobile Application to Web With BLoC",
+            title1:
+              "Flutter BLoC is a great architecture pattern, which was warmly welcomed by the community. But it wasn't created just for mobile applications.",
+            sub_para1:
+              "It was introduced as a pattern that allows for sharing up to 50% of code between Flutter and AngularDart applications. In this blog post, I will share the experience of converting my Flutter to the web app and I will compare this solution to Flutter For Web.",
+
+            title2: "Share code with mobile and web",
+            sub_paraT2_1:
+              "For this blog post, I will be using the application that I have created as part of a BLoC tutorial. If you are not familiar with the BLoC pattern, or if you want to have a better understanding of the app that I will be converting, I advise you to take a look at it first. ",
+            sub_paraT2_2:
+              "Shared application code can only be applied if you want to have the same behavior on both mobile and web. You can, of course, create different states, events, and BLoC just for one platform, but creating many of them makes shared code less profitable. Your application also has to be built based on the BLoC pattern. It would be best if it had been created based on the BLoC library, which is supported both on Flutter and AngularDart.",
+            sub_paraT2_3:
+              "Since both mobile and web applications will behave in the same way and have the same states and events, they could share everything except the UI classes",
+            image: "../assets/img/blog/bloc.jpg",
+            title3: "Converting Flutter app to shared code",
+            sub_paraT3_1:
+              "The first thing I had to do to start working with shared code is to move all of the shared classes to a new folder, which should be created in the same place that mobile and web applications will be. So in the end, a folder containing the application should look like this:",
+            sub_paraT3_2:
+              "Classes that could be shared between web and mobile could be all classes that provide data and manage the application state. So all BLoC, Models, Repositories, and data providers can be moved to common_bloc_lyrics.",
+            sub_paraT3_3:
+              "Afterward, I had to add a pubspec.yaml file, so that it could provide the necessary dependencies and allow importing this package to web and mobile projects.Then, I had to create a file common_bloc_lyrics.dart, which would export all the dependencies that this new package will provide.",
+            title4: "Angular Dart application",
+            sub_paraT4_1:
+              "To create an AngularDart project I used the recommended Dart project generator, called Stagehand. After downloading it, I also had to update my system path so that it would point to the required tools.",
+            sub_paraT4_2:
+              "Creating an AngularDart application with Stagehand is as simple as generating a new Flutter project, you just need to type this command:stagehand web-angular As I stated before, I don't have a lot of experience in working with web applications. The one that I wrote was based on the Github search example from the BLoC library documentation.",
+            sub_paraT4_3:
+              "It looks similar to the mobile app version of this component. SongSearchBloC is injected into this class thanks to the @Input() annotation. Similarly to the mobile version, the method onTextChanged should be called each time the input in the search bar changes. The templateUrl property tells which view layout should be used for the creation of this component. The search bar HTML file looks like this:",
+            sub_paraT4_4:
+              "Since web applications have special security restrictions, it is worth pointing out is that you cannot make a request to a web server that doesn’t set CORS headers that accept it from the domain that your app is on. The API that I have worked with didn't have this feature, so to make my web app running I had to run my browser without CORS. When you are working with a custom API, it isn't hard to add CORS headers to it, but you need to keep in mind that you can't do this with most of external APIs.",
+            title5: "Converting the app to Flutter web",
+            sub_paraT5_1:
+              "Creating a shared web and mobile application takes time. It also requires some knowledge of Dart, Flutter, and AngularDart. It might not be the best solution for most mobile developers. But if you want to convert your Flutter app to be working with web, there is a simpler way. Flutter For Web lets you easily convert any application to a working web application, regardless of which architecture you use. Since it is still in preview, it is not advised to be used in a production-ready application.",
+            sub_paraT5_2:
+              "If you want to learn more about this, I would recommend this great article. By following the steps described in the article, I managed to convert and run my application locally on my browser.",
+            title6: "Summary",
+            sub_paraT6_1:
+              "For now, there is no easy way for mobile developers to convert their mobile apps to production-ready web applications. Working with shared code requires a lot of knowledge, and it is not so greatly supported, since AngularDart is not as popular as other web technologies. But for now, the best way to go would be to create a production-ready web application with Flutter. This makes it another reason to keep your fingers crossed for the success of Flutter web.",
+          },
+          {
+            id: 4,
+            title: "React vs Angular: Best Choice for Modern Web Development",
+            title1: "What is React?",
+            sub_para1:
+              "React – the most used library during Javascript web development  shines as a denotation of creative freedom and innovative architecture. React champions a component-based philosophy, allowing you to craft modular, reusable blocks that snap together seamlessly to form captivating and interactive UIs. This not only fosters code organization and maintainability, but also injects a dose of flexibility, empowering you to customize and adapt your applications with ease.",
+            sub_para2:
+              "Whether you’re a startup or an established business seeking a modern approach that unlocks the potential of web UI development, React motions you to explore its world of possibilities which you can unlock robustly by handing over to a trusted .React JS development company Their knowledgeable foundation, intuitive approach, and strategic optimization make it a powerful partner in building the web experiences of tomorrow.",
+            title2: "What is Angular?",
+            sub_paraT2_1:
+              "Angular is one of the robust Javascript frameworks , that empowers developers to craft feature-rich, well-structured applications. Angular’s modular approach, allows you to build maintainable, scalable UIs that stand the test of time. Its comprehensive toolkit encompasses everything from routing and data binding to forms and testing, equipping you to tackle any web project with confidence and efficiency.",
+            sub_paraT2_2:
+              " Angular comes packed with built-in tools for routing, forms, data binding, and more. Forget piecing together disparate libraries; Angular offers a complete set, ready to tackle any web project with ease and efficiency.",
+            sub_paraT2_3:
+              "Angular isn’t just about websites, it’s about crafting seamless experiences. Angular offers modularity and structure, letting you build interconnected, dynamic UIs that guide users intuitively toward their goals. Its comprehensive toolkit offers a bridge between vision and reality, empowering you to create applications that are both powerful and interactive.",
+            image: "../assets/img/blog/react.jpg",
+            title3: "React vs Angular: A Detailed Comparison",
+            sub_paraT3_1:
+              "Choosing the right one for your web development project can feel like navigating a complex maze. Two powerful contenders, React and Angular, both promise robust features and dynamic UIs, but understanding their specific strengths and weaknesses can make all the difference. Before stepping on your web development journey, consider consulting with a web development company experienced in both React development and Angular development. Their expertise can provide valuable insights based on your project’s unique needs and goals.",
+            sub_paraT3_2:
+              "In the heart of web development lies a crucial crossroads: library or framework? This seemingly simple choice can drastically impact your project’s construction. While both React and Angular empower you to build dynamic UIs, understanding their underlying foundations – library vs. framework – is key to finding the perfect architect for your vision.",
+            sub_paraT3_3:
+              "React doesn’t just offer speed but also a seamless, responsive experience for your users. React’s virtual DOM acts as the maestro, ensuring everything runs smoothly and efficiently.While React’s performance magic is unmistakable, remember to choose the right tools for your project’s needs. Consider complexity, user expectations, and available resources to find the perfect balance between speed and development ease. With careful planning and a sprinkle of optimization, your React masterpiece will leave audiences spellbound by its smooth and captivating performance.",
+            title4:
+              "Which One Between React vs Angular Will be Best for Your Next Project?",
+            sub_paraT4_1:
+              "Deciding between React vs Angular isn’t a battle for supremacy, but a strategic navigation toward the language that empowers your next project’s success. Each champion boasts unique strengths, and choosing the right one hinges on understanding your project’s specific needs and goals. Here’s a roadmap to guide your decision:",
+            sub_paraT4_2:
+              " The primary difference lies in their architectural approach. React is a JavaScript library for building user interfaces, focusing on the View in the MVC (Model-View-Controller) architecture. Angular, on the other hand, is a full-fledged MVC framework, providing a comprehensive solution for building complete web applications.",
+            sub_paraT4_3:
+              "React is more flexible, allowing developers to make choices about libraries, state management, and other aspects. Angular, being opinionated, comes with a set of conventions and built-in tools, streamlining development but offering less flexibility in certain decisions.",
+            sub_paraT4_4:
+              " React utilizes a virtual DOM, updating only the parts of the actual DOM that change, optimizing performance. Angular uses a two-way data binding system, automatically updating the view when the model changes, simplifying development but potentially impacting performance in complex applications.",
+            title5: "When Choose React for Your Project?",
+            sub_paraT5_1:
+              "Choosing the right framework is a pivotal JavaScript library for your project is vital, and React stands out in various scenarios. With its emphasis on rapid prototyping, engaging user experiences, and lightweight – React proves to be the ideal choice for projects demanding flexibility and creative innovation.",
+            sub_paraT5_2:
+              "React’s virtual DOM and component-based architecture facilitate swift prototyping and iteration. Developers can efficiently make changes without affecting the entire application, streamlining the development process.",
+            title6: "When Choose Angular for Your Project?",
+            sub_paraT6_1:
+              "Angular’s opinionated structure and strong TypeScript support make it well-suited for large-scale enterprise applications. The framework provides a comprehensive set of tools and conventions, facilitating the development of complex and scalable systems.",
+            sub_paraT6_2:
+              "Angular comes with an extensive set of built-in features and tools, such as dependency injection, routing, and state management. This all-inclusive approach reduces the need for third-party libraries, providing a cohesive development experience.",
+          },
+          {
+            id: 5,
+            title: "How to Minimize React Bundle Size for Faster Loading Times",
+            title1: "Introduction",
+            sub_para1:
+              "Hello 👋, I am Ashish Maurya a software developer and part-time freelance developer. Recently I was given a task to minimize the React bundle size and optimize the whole application as much as possible. Well, this might seem like an easy job but finding the right solution for your test case can be daunting. I am just gonna mention some of the tried and tested methods we used to reduce our React bundle size from 7 MB (main.js) to ~700kb (main.js) and reduced the Initial loading time from more than the 20s to ~1s in fast 3G.",
+
+            title2: "Importance of fast loading times",
+            sub_paraT2_1:
+              "A one-second delay in page load time has been shown to cause a 7 percent loss in conversion and 11 percent fewer page views. For an online store earning $50,000 a day, that one-second delay adds up to more than $1 million in lost sales each year .",
+            sub_paraT2_2:
+              " You can understand how big of a change even 1s can make when it comes to loading time in a large-scale business.Amazon found that every 100 milliseconds of latency cost them 1% in sales.",
+            sub_paraT2_3:
+              "if your site loads in 5 seconds, it is faster than approximately 25% of the web if your site loads in 2.9 seconds, it is faster than approximately 50% of the web if your site loads in 1.7 seconds, it is faster than approximately 75% of the web if your site loads in 0.8 seconds, it is faster than approximately 94% of the web",
+            image: "../assets/img/blog/optimizing.jpg",
+            title3: "React bundle size as a factor",
+            sub_paraT3_1:
+              "Let's try to understand how the browser loads our React page. From the server, we ship the HTML file and if you clearly observe the HTML file you will see a script tag that is calling your main.js a chunk that is eventually responsible for everything in your React if you are not using SSR.",
+            sub_paraT3_2:
+              "The bigger is the main.js chunk also main.css chunk the more time it will take to load and parse. Meaning reducing our React bundle size can eventually reduce the initial page loading time.",
+            title4: "Tools for analyzing the bundle",
+            sub_paraT4_1:
+              "Several tools are available for analyzing the React bundle. Webpack Bundle Analyzer and Source Map Explorer are popular tools that can be used to analyze the bundle's components and their sizes.",
+            sub_paraT4_2:
+              " In this article, we will be taking a glance at some tools, and then we will learn how to use them to Optimize our React bundle size.",
+            sub_paraT4_3:
+              "If you are using webpack as a bundler this should be your go-to point for getting a better look at your bundle. It is very easy to install and use. => npm install --save-dev webpack-bundle-analyzer",
+            sub_paraT4_4:
+              " Similarly, you can use a generated Source Map to analyze the bundle and I identify the big chunks in your javascript bundle. Here is a good npm library to achieve that.",
+            title5:
+              "Strategies for minimizing React bundle size & Implementation",
+            sub_paraT5_1:
+              "Using smaller libraries As you already saw above the bigger bundle can drastically increase your React Bundle size and can negatively impact your loading time. Finding a better alternative is always recommended.",
+            sub_paraT5_2:
+              "A popular library for formatting is Date's Momentjs which is approx 4 MB instead you can use another library that satisfies your needs and has a smaller size. I understand there are gonna be times you don't have any option to change the library in our case we were using Monaco one whose uncompressed size is 82 MB and we don't have any other alternative to go with. The following methods will help you solve the issue.",
+            title6: "Code splitting",
+            sub_paraT6_1:
+              "Now if the above does not work for you or you want to reduce the React bundle size further you can do some Code Splitting. As the project grows the size of the application grows as well, especially when you are using third-party libraries. We can split that code into chunks and only load the chunk needed for the initial page load; the rest are loaded on a need basis. This doesn't reduce the size of your application but divides the React bundle size into chunks which can be lazy loaded as we need them.",
+            sub_paraT6_2:
+              "Lazy loading is a strategy to identify resources as non-blocking (non-critical) and load these only when needed. It's a way to shorten the length of the critical rendering path, which translates into reduced page load times.",
+          },
+          {
+            id: 6,
+            title:
+              "Next JS vs React : Which Framework to choose for Front end in 2024?",
+            title1: "Introduction",
+            sub_para1:
+              "In the world of React, one of the popular frameworks for “hitting the ground running” is Next JS. As React lover, I tried my hands on Next.js for one of my projects last month. And the result was not surprising; I thoroughly liked and enjoyed working on Next JS. So, it’s time to go further and understand the difference between React and Next JS.",
+            sub_para2:
+              "Next.js is a simplified development environment built on top of React. It has a small learning curve, but even developers who are new to front-end development can learn it quickly. Therefore, developing a project with Next JS vs React JS is a unique experience.Comparing Next.js vs React, Next.js is a React framework, on the other hand, React is just a JavaScript library.",
+            title2: "What is Next JS?",
+            sub_paraT2_1:
+              "Created by Vercel, Next.js is an open-source and JavaScript framework, allowing you to develop fast and user-friendly web applications and static websites using React. Actually, it is based on Node.js and Babel, and it integrates with React to develop Single Page Applications. This makes server-side convenient and easier.",
+            sub_paraT2_2:
+              "Next JS is a JavaScript framework that allows developers to create user-friendly and blazing fast static websites and static web applications with React. Next JS is an open-source, lightweight web development framework for React applications. It allows developers to build server-side rendering.",
+            sub_paraT2_3:
+              "Next.js is based on React babel and webpack, which provides an out-of-the-box solution for server-side rendering (SSR) of React components. Next.js is an open-source JavaScript framework that allows developers to create dynamic and static web applications and websites.",
+            image: "../assets/img/blog/next.jpg",
+            title3: "What is React?",
+            sub_paraT3_1:
+              "React takes the JavaScript world by storm and becomes its undisputed leader. React has become one of the most used and well-known front-end libraries to build large web apps. Developed by Facebook, React is an open-source and flexible JavaScript library, allowing developers to develop scalable, simple, and fast frontend interfaces for Single Page Applications or Multi-page Web Applications. It supports a functional programming paradigm and a reactive approach.",
+            sub_paraT3_2:
+              "React is one of the most used front-end libraries, allowing developers to create reusable UI components, maintained by Facebook. React is an easy-to-use front-end library that offers various useful tools to enclose routing and state management patterns alongside Redux and other libraries. React is a JavaScript library that allows developers to build user interfaces. A user interface (UI) is a combination of HTML and JavaScript that contains all of the logic needed to display a tiny piece of a bigger UI. UI is critical in ensuring the user stays on your web page. You need to ensure that it is the best, no matter what. You can also consider getting help from a professional ReactJS development company to provide the same.",
+            title4: "Difference Between React and Next JS",
+            sub_paraT4_1:
+              "Well, if you use Next JS and React for your development project, you will find many perks and drawbacks of using these for React/JavaScript projects. However, these are the important front-end development tools that offer a seamless and engaging web development experience. However, they have different learning curves, although they both are easy to learn.",
+            sub_paraT4_2:
+              " The major difference between Next JS and React JS is performance. If we talk about Next.js applications, they are extremely fast because of the static destinations and server-side rendering. Of course, they are viable due to many performance enhancement features, such as Image Optimization.",
+            sub_paraT4_3:
+              "As a result, if you pick Next.js for your project, you will get automatic server rendering and code-splitting, which will enhance your development performance. Furthermore, SSR also plays an important role in better app performance.",
+            sub_paraT4_4:
+              " On the other hand, while talking about React, a few things rule out here. It supports client-side rendering, which is not sufficient for a high-performance application development.",
+            title5: "Next vs React: Documentation",
+            sub_paraT5_1:
+              "The documentation section gets the most attention while finding out the difference between React and Next JS. Good documentation may help you find out how to use tools, which libraries to use, and many other things for any project development.",
+            sub_paraT5_2:
+              "However, you can easily find documentation, articles, tutorials on the Internet for Next.js and React. Next.js provides a set of “learn-by-doing” tutorials that walks you through things like Next JS component creation, development, integration, and guiding. Whereas, React offers a similar design, with a few introductory activities that explain the fundamentals.",
+            title6: "Next JS vs React: Server-side Rendering",
+            sub_paraT6_1:
+              "While talking about another feature – Server-side Rendering, Next.js supports SSR. It actually collects data and renders each request every time you need to deliver a different view for various users.",
+            sub_paraT6_2:
+              "React does not allow server-side rendering by default, although it can be enabled. It just takes some extra effort to integrate SSR with your preferred server and setup. Besides, the developers may not support this for the next versions.",
+          },
+        ];
+
+        // Fetch JSON data
+        const urlParams = new URLSearchParams(window.location.search);
+        const id = parseInt(urlParams.get("id"));
+        const matchingData = dataArray.find((item) => item.id === id);
+        console.log("matchingData", matchingData);
+        if (matchingData) {
+          document.getElementById("headerImage").src = matchingData.image;
+          document.getElementById("topHeader").textContent = matchingData.title;
+          document.getElementsByClassName("sec")[0].innerHTML =
+            matchingData.title1;
+          document.getElementById("sub_port1").textContent =
+            matchingData.sub_para1;
+          const ele_1 = document.getElementById("sub_port2");
+          matchingData.sub_para2
+            ? (ele_1.innerHTML = matchingData.sub_para2)
+            : (ele_1.innerHTML = "");
+          document.getElementsByClassName("sec2")[0].innerHTML =
+            matchingData.title2;
+          document.getElementById("sub_portt2_1").innerHTML =
+            matchingData.sub_paraT2_1;
+          matchingData.sub_paraT2_2
+            ? (document.getElementById("sub_portt2_2").innerHTML =
+                matchingData.sub_paraT2_2)
+            : (document.getElementById("sub_portt2_2").innerHTML = "");
+          matchingData.sub_paraT2_3
+            ? (document.getElementById("sub_portt2_3").innerHTML =
+                matchingData.sub_paraT2_3)
+            : (document.getElementById("sub_portt2_3").innerHTML = "");
+          document.getElementsByClassName("sec3")[0].innerHTML =
+            matchingData.title3;
+          document.getElementById("sub_portt3_1").innerHTML =
+            matchingData.sub_paraT3_1;
+          matchingData.sub_paraT3_2
+            ? (document.getElementById("sub_portt3_2").innerHTML =
+                matchingData.sub_paraT3_2)
+            : (document.getElementById("sub_portt3_2").innerHTML = "");
+          matchingData.sub_paraT3_3
+            ? (document.getElementById("sub_portt3_3").innerHTML =
+                matchingData.sub_paraT3_3)
+            : (document.getElementById("sub_portt3_3").innerHTML = "");
+          document.getElementsByClassName("sec4")[0].innerHTML =
+            matchingData.title4;
+          document.getElementById("sub_portt4_1").innerHTML =
+            matchingData.sub_paraT4_1;
+          matchingData.sub_paraT4_2
+            ? (document.getElementById("sub_portt4_2").innerHTML =
+                matchingData.sub_paraT4_2)
+            : (document.getElementById("sub_portt4_2").innerHTML = "");
+          matchingData.sub_paraT4_3
+            ? (document.getElementById("sub_portt4_3").innerHTML =
+                matchingData.sub_paraT4_3)
+            : (document.getElementById("sub_portt4_3").innerHTML = "");
+          matchingData.sub_paraT4_4
+            ? (document.getElementById("sub_portt4_4").innerHTML =
+                matchingData.sub_paraT4_4)
+            : (document.getElementById("sub_portt4_4").innerHTML = "");
+          document.getElementsByClassName("sec5")[0].innerHTML =
+            matchingData.title5;
+          document.getElementById("sub_portt5_1").innerHTML =
+            matchingData.sub_paraT5_1;
+          matchingData.sub_paraT5_2
+            ? (document.getElementById("sub_portt5_2").innerHTML =
+                matchingData.sub_paraT5_2)
+            : (document.getElementById("sub_portt5_2").innerHTML = "");
+          document.getElementsByClassName("sec6")[0].innerHTML =
+            matchingData.title6;
+          document.getElementById("sub_portt6_1").innerHTML =
+            matchingData.sub_paraT6_1;
+          matchingData.sub_paraT6_2
+            ? (document.getElementById("sub_portt6_2").innerHTML =
+                matchingData.sub_paraT6_2)
+            : (document.getElementById("sub_portt6_2").innerHTML = "");
+
+          const ele2 = document.getElementsByClassName(
+            "pinned-image__quote-author"
+          );
+          ele2[0].innerHTML = matchingData.title;
+          const ele3 = document.getElementsByClassName(
+            "pinned-image__quote-role"
+          );
+        }
+      });
+    </script>
+  </body>
+</html>
